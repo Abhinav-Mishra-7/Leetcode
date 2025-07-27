@@ -1,7 +1,7 @@
 import { useState, useEffect , useCallback} from 'react';
 import { Timer } from 'lucide-react';
 
-export default function CountdownTimer({ targetDate , onEnd , from}) {
+export default function CountDownTimer({ targetDate , onEnd , from}) {
   
   const calculateTimeLeft = useCallback(() => {
     const difference = new Date(targetDate) - new Date();

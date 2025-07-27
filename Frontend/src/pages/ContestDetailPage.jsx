@@ -1,5 +1,3 @@
-// src/pages/ContestDetailPage.jsx
-
 import { useState, useEffect, useCallback } from 'react';
 import { useSelector } from 'react-redux';
 import { useParams, useNavigate, Link , useLocation} from 'react-router';

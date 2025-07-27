@@ -155,4 +155,4 @@ function WishListPage() {
   );
 }
 
-export default WishlistPage;
+export default WishListPage;

@@ -4,7 +4,7 @@ import { useState, useEffect, useCallback } from 'react';
 import { useSelector } from 'react-redux';
 import { useParams, useNavigate, Link , useLocation} from 'react-router';
 import axiosClient from '../utils/axiosClient';
-import CountdownTimer from '../components/contest/CountdownTimer';
+import CountdownTimer from '../components/contest/CountDownTimer';
 import Loader from '../components/loader/Loader';
 import ProblemListItem from '../components/contest/ProblemListItems';
 import { toast } from 'react-toastify';

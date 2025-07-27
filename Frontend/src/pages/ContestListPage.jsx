@@ -4,7 +4,7 @@ import { useSelector } from 'react-redux';
 import axiosClient from '../utils/axiosClient';
 import Loader from '../components/loader/Loader';
 import { format } from 'date-fns';
-import CountdownTimer from '../components/contest/CountdownTimer';
+import CountdownTimer from '../components/contest/CountDownTimer';
 import Navbar from '../components/navbar/Navbar';
 
 export default function ContestsListPage() {

@@ -16,7 +16,7 @@ const getDifficultyClass = (difficulty) => {
   }
 };
 
-function WishlistPage() {
+function WishListPage() {
   const [wishlistProblems, setWishlistProblems] = useState([]);
   const [solvedProblems, setSolvedProblems] = useState([]);
   const [isLoading, setIsLoading] = useState(true);

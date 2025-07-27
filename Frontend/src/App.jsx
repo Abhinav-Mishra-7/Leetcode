@@ -25,7 +25,7 @@ import PaymentCanceled from "./components/payment/PaymentCanceled";
 import PaymentSuccess from "./components/payment/PaymentSuccess";
 import PremiumDetails from "./components/payment/PremiumDetails";
 import EditProfilePage from "./pages/profile/EditProfilePage";
-import WishlistPage from "./pages/WishlistPage" ;
+import WishListPage from "./pages/WishListPage" ;
 
 function App(){
   
@@ -83,7 +83,7 @@ function App(){
 
       <Route path="/profile/edit" element={<EditProfilePage/>}></Route>
 
-       <Route path="/wishlist" element={<WishlistPage />} />
+       <Route path="/wishlist" element={<WishListPage />} />
 
     </Routes>
   </BrowserRouter>

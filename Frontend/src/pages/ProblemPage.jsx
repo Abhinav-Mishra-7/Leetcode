@@ -13,7 +13,7 @@ import ChatAi from '../components/ChatAi';
 import EditorialPage from './EditorialPage';
 import Solutions from '../components/Solutions';
 import { fetchEditorialData} from '../editorialSlice';
-import CountdownTimer from '../components/contest/CountdownTimer';
+import CountdownTimer from '../components/contest/CountDownTimer';
 import Loader from "../components/loader/Loader"
 import Navbar2 from '../components/navbar/Navbar2';
 

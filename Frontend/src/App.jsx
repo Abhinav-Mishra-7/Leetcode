@@ -25,7 +25,7 @@ import PaymentCanceled from "./components/payment/PaymentCanceled";
 import PaymentSuccess from "./components/payment/PaymentSuccess";
 import PremiumDetails from "./components/payment/PremiumDetails";
 import EditProfilePage from "./pages/profile/EditProfilePage";
-import WishlistPage from "./pages/WishListPage";
+import WishlistPage from "./pages/WishlistPage" ;
 
 function App(){
   

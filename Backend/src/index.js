@@ -34,6 +34,12 @@ app.use(cors({
 app.use(express.json()) ;
 app.use(cookieParser()) ;
 
+// Just for deployment
+app.get('/', (req, res) => {
+  res.json({ message: 'API is running' });
+});
+
+
 const server = http.createServer(app);
 const io = initSocket(server);
 
@@ -61,10 +67,6 @@ app.use("/payments" , paymentRouter) ;
 // profile image
 app.use("/image" , imageRouter) ;
 
-// Just for deployment
-app.get('/', (req, res) => {
-  res.json({ message: 'API is running' });
-});
 
 
 

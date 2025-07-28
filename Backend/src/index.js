@@ -61,6 +61,11 @@ app.use("/payments" , paymentRouter) ;
 // profile image
 app.use("/image" , imageRouter) ;
 
+// Just for deployment
+app.get('/', (req, res) => {
+  res.json({ message: 'API is running' });
+});
+
 
 
 // parallely calling two function to connent DB and redis both at the same time
